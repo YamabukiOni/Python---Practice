@@ -1,0 +1,57 @@
+print("Day 2 - Variables")
+
+firstname = "Jayden"
+lastname = "Pancarci"
+fullname = firstname + " " + lastname
+country = "Australia"
+city = "Melbourne"
+age = "17"
+year = "2026"
+is_married = "definetly not"
+is_true = "False"
+is_light_on = "True"
+skill, language, tool = "Python", "English", "VS Code"
+
+type(firstname) #str
+type(age) #str
+type(is_married) #str
+type(is_true) #str
+type(is_light_on) #str
+type(skill) #str
+type(language) #str
+type(tool) #str
+
+len(firstname) #6
+len(lastname) #8
+len(fullname) #14
+
+num_one = 5
+num_two = 4
+print(num_one + num_two)
+total = num_one + num_two
+print(num_one - num_two)
+diff = num_one - num_two
+print(num_one * num_two)
+product = num_one * num_two
+print(num_one / num_two)
+division = num_one / num_two
+print(num_one % num_two)
+remainder = num_one % num_two
+print(num_one ** num_two)
+exponential = num_one ** num_two
+print(num_one // num_two)
+floor_division = num_one // num_two
+
+#CIRCLE
+float(3.14)
+int(30)
+int(2)
+#AREA OF CIRCLE
+print(30 ** 2)
+print(900 * 3.14)
+area_of_circle = 2826
+#CIRCUMFERENCE OF CIRCLE
+print(2 * 3.14 * 30)
+circumference_of_circle = 188.4
+
+print(firstname, '  ', lastname, '  ', country, '  ', age, '  ', skill)
