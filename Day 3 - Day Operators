@@ -1,0 +1,10 @@
+int(17)
+float(165.5)
+variable = 10 + 10j
+
+radius = 20
+Area_Of_Circle = 3.14 * radius **2
+print (Area_Of_Circle)
+
+side a = 3
+side b = 6
